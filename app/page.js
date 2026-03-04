@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Prova from "@/components/Prova";
+import Iscrizione from "@/components/Iscrizione";
 export default function Home() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function Home() {
     
   <Prova></Prova>
     
-    
+    <Iscrizione></Iscrizione>
     
     
     

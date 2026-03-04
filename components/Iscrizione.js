@@ -5,7 +5,7 @@ export default function Iscrizione() {
         <div className="bg-zinc-800 p-2 mx-6 rounded-2xl">
           <div className="flex flex-col md:flex-row rounded-l-xl">
             <img
-              src=""
+              src="images/maestro.jpeg"
               alt=""
               className="object-fill rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-none transform hover:scale-105 hover:rounded-xl duration-200 "
               
@@ -14,9 +14,16 @@ export default function Iscrizione() {
                 <h2 className="font-serif text-xl font-medium text-center text-white md:text-left">
                     get diet and fitness tips in your inbox 
                 </h2>
-                <p className="max-w-xs my-4 txt-xs leading-5 tracking-wide text-center text-white md:text-left">
+                <p className="md:max-w-xs my-4 txt-xs leading-5 tracking-wide text-center text-white md:text-left">
                     eat better and exercise better. Sign un for the diet&fitness newsletter
                 </p>
+                <div className="flex flex-col mt-5 space-y-4 md:flex-row md:space-y-0">
+                  <input type="text "placeholder="enter email adress" className="p-2 px-4 text-center text-white bg-zinc-800 borde borde-zinc-600 placeholder:text-center md:text-left focus:outline-none" 
+                  />
+                  <button className="ox-5 py-3 text-xs rounded-md text-zinc-800 bg-lime-500 hover:bg-lime-700 hover:text-white duration:500">
+                    Subscribe
+                  </button>
+                </div>
             </div>
           </div>
         </div>
